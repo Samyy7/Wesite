@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samyak Kharat | Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+    
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Samy<span>.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#certificates" class="menu-btn">Certificates</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+        <div class="max-width">
+            <div class="home-content" data-aos="fade-up">
+                <div class="text-1">Hello, I'm</div>
+                <div class="text-2">Samyak Kharat</div>
+                <div class="text-3">And I'm skilled in <span class="typing"></span></div>
+                <div class="social-links">
+                    <a href="https://github.com/Samyy7"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/samyak-kharat-06a056250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">About me</h2>
+            <div class="about-content">
+                <div class="column left" data-aos="fade-right">
+                    <img src="images/pp.jpg" alt="Samyak">
+                </div>
+                <div class="column right" data-aos="fade-left">
+                    <div class="text">BTECH ECE Student @ <span>MIT-WPU</span></div>
+                    <p>A passionate second-year Electronics & Communication Engineering student with expertise in embedded systems,RoS2 and Computer Vision. Currently exploring PCB design. Committed to creating efficient solutions through innovative engineering.</p>
+                    <div class="edu-timeline">
+                        <div class="timeline-item">
+                            <h3>MIT-WPU (2023-2027)</h3>
+                            <p>B.Tech in Electronics & Communication Engineering</p>
+
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Specializations</h3>
+                            <p>Embedded Systems · ROS2 · Computer Vision</p>
+                        </div>
+                    </div>
+                    <a href="docs/Samyak_kharat.pdf" download class="btn">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">Technical Arsenal</h2>
+            <div class="skills-content">
+                <div class="column left" data-aos="fade-right">
+                    <div class="text">Hardware & Software Proficiency</div>
+                    <p>Equipped with a unique blend of hardware and software skills, I bridge the gap between physical computing and digital interfaces. My expertise spans from circuit design to implementation of it, enabling complete product lifecycle implementation.</p>
+                </div>
+                <div class="column right" data-aos="fade-left">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Embedded C/C++</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line embedded"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>ROS2</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line ROS2"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Computer Vision</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line ComputerVision"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Hardware Debugging</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line debug"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PCB Design (Altium)</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line pcb"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">My Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-tile" data-aos="zoom-in">
+                    <div class="tile-content">
+                        <div class="project-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Turret arm</h3>
+                        <p>Computer vision based object tracking arm</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1-XCC0H26bUJE3a_1Rw5p-K7k92HstqG4/view?usp=sharing" class="project-link view-details-btn" data-project="irrigation">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-tile" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tile-content">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Automatic robot</h3>
+                        <p>ROS2 based omnidirectional Automatic robot</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1c00Il3p5HnVmmZwFVND3FTvtpoR2GRB2/view?usp=sharing" class="project-link view-details-btn" data-project="robot">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-tile" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="tile-content">
+                        <div class="project-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Smart Conveyor System</h3>
+                        <p>Automatic Sorting System using color detection </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link view-details-btn" data-project="automation">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">Certifications</h2>
+            <div class="cert-container">
+                <div class="cert-card" data-aos="flip-left">
+                    <img src="images/cert1.png" alt="Embedded Systems Certification">
+                    <div class="cert-overlay">
+                        <h3>Robocon 2024</h3>
+                        <p>Doordarshan</p>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="200">
+                    <img src="images/cv.jpg" alt="CV Workshop Certification">
+                    <div class="cert-overlay">
+                        <h3>Cv Workshop</h3>
+                        <p>MIT Tech Team</p>
+                    </div>
+                </div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="400">
+                    <img src="images/altium.png" alt="IoT Certification">
+                    <div class="cert-overlay">
+                        <h3>Altium Workshop</h3>
+                        <p>Altium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-down">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Have an exciting project or opportunity? Let's connect and create something amazing together!</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Location</div>
+                                <div class="sub-title">Pune, India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">Samyakharat1000@gmail.comm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe your project..." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Created by Samyak Kharat | <span class="far fa-copyright"></span> 2025 All rights reserved.</span>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title"></h2>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Custom Cursor
+            const cursor = document.querySelector('.cursor');
+            const cursor2 = document.querySelector('.cursor2');
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+                cursor2.style.left = e.clientX + 'px';
+                cursor2.style.top = e.clientY + 'px';
+            });
+        
+            document.body.classList.add('dark-theme');
+            // Ensure the icon shows sun (☀️) since it's dark mode at start
+            const themeToggle = document.querySelector('.theme-toggle');
+            const icon = themeToggle.querySelector('i');
+            icon.classList.remove('fa-moon');
+            icon.classList.add('fa-sun');
+
+            // Toggle logic on click
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+                icon.classList.toggle('fa-sun');
+                icon.classList.toggle('fa-moon');
+            });
+
+        
+            // Particles.js
+            particlesJS('particles-js', {
+                particles: {
+                    number: { value: 80, density: { enable: true, value_area: 800 } },
+                    color: { value: '#ffffff' },
+                    shape: { type: 'circle' },
+                    opacity: { value: 0.5 },
+                    size: { value: 3 },
+                    move: {
+                        enable: true,
+                        speed: 6,
+                        direction: 'none',
+                        random: false,
+                        straight: false,
+                        out_mode: 'out',
+                        bounce: false,
+                    }
+                },
+                interactivity: {
+                    detect_on: 'canvas',
+                    events: {
+                        onhover: { enable: true, mode: 'repulse' },
+                        onclick: { enable: true, mode: 'push' },
+                        resize: true
+                    }
+                },
+                retina_detect: true
+            });
+        
+            // AOS Initialization
+            AOS.init({
+                duration: 1000,
+                offset: 120,
+                once: true
+            });
+        
+            // Smooth Scroll
+            $('.navbar .menu li a').click(function(e){
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top - 50
+                }, 500);
+            });
+        
+            // Sticky Navbar
+            window.addEventListener('scroll', function() {
+                if(window.scrollY > 20) {
+                    document.querySelector('.navbar').classList.add('sticky');
+                } else {
+                    document.querySelector('.navbar').classList.remove('sticky');
+                }
+            });
+        
+            // Menu Toggle
+            document.querySelector('.menu-btn').addEventListener('click', function() {
+                document.querySelector('.navbar .menu').classList.toggle('active');
+                this.querySelector('i').classList.toggle('active');
+            });
+        });
+        </script>
+        <script>
+        new Typed(".typing", {
+            strings: ["ROS2", "Embedded system", "Computer Vision", "PCB design"],
+            typeSpeed: 80,
+            backSpeed: 50,
+            backDelay: 1000,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true
+        });
+        
+        // Certificate Modal
+        document.querySelectorAll('.cert-card').forEach(card => {
+            card.addEventListener('click', function() {
+                const imgSrc = this.querySelector('img').src;
+                const modal = document.createElement('div');
+                modal.className = 'cert-modal';
+                modal.innerHTML = `
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="${imgSrc}" alt="Certificate">
+                    </div>
+                `;
+                document.body.appendChild(modal);
+                
+                modal.querySelector('.close').addEventListener('click', () => {
+                    modal.remove();
+                });
+            });
+        });
+        </script>
+</body>
+</html>
